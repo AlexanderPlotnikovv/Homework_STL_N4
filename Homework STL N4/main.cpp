@@ -2,11 +2,6 @@
 #include <vector>
 #include <algorithm>
 
-int compare(int a, int b)
-{
-	return a < b;
-}
-
 void set(std::vector<int>& vector)
 {
 	std::sort(vector.begin(), vector.end());
